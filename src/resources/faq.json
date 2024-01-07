@@ -1,0 +1,8 @@
+[
+  {
+    "Gdzie znajdę symbol?": "Symbol pomaga Wulkanowemu zalogować się do dziennika w odpowiedniej miejscowości. Jeśli nie znasz swojego symbolu, jest kilka rozwiązań:\n- Zaloguj się na swoje konto na stronie internetowej dziennika, a następnie ponów próbę w Wulkanowym — teraz powinien być w stanie zalogować się automatycznie.\n- Symbol znajdziesz także w linku do dziennika na stronie internetowej szkoły\n  np. w linku `https://uonetplus.edu.gdansk.pl/gdansk` słowo `gdansk` to symbol do wprowadzenia w aplikacji.\n- Jeśli poprzednie sugestie nie rozwiązały problemu, zaloguj się na stronie internetowej dziennika, kliknij Uczeń > Dostęp mobilny > Wygeneruj kod dostępu. Pod wygenerowanym kodem znajdzie się kilka informacji, w tym symbol do wprowadzenia w aplikacji."
+  },
+  {
+    "Tłumaczy powód braku wersji na iOS": "Niestety, Wulkanowy na iOS może się nigdy nie pojawić. Wynika to z kilku przyczyn. Najważniejszą jest brak czasu — Wulkanowy to projekt tworzony po godzinach przez grupę uczniów (niektórzy z nas już pracują) i nie mamy czasu na napisanie praktycznie całej aplikacji od nowa. Nie mówimy oczywiście kategorycznego „nie”, ale nie możemy zapewnić, że uda nam się kiedykolwiek wydać Wulkanowego na iOS.\n**Alternatywna aplikacja**\nMożesz zapoznać się z aplikacją naszej zaprzyjaźnionej konkurencji — Vulcanova, która dostępna jest także na iOS! Dołącz na jej serwer Discord używając [tego linku](<https://discord.gg/QJqu9gBZKt>)."
+  }
+]
