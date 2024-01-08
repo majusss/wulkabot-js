@@ -16,6 +16,7 @@ module.exports = {
           commands.set(cmd.data.name, cmd);
         } catch (error) {
           console.log(`error loading command from ${file}`);
+          console.log(error);
         }
       }
     }

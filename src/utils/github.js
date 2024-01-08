@@ -6,9 +6,15 @@ class GitHub {
       baseURL: "https://api.github.com/",
       headers: { Accept: "application/vnd.github.v3+json" },
     });
+    this.colors = this.http
+      .get(
+        "https://raw.githubusercontent.com/ozh/github-colors/master/colors.json",
+      )
+      .then((res) => res.data);
   }
 
   async fetchRepo(owner, repo) {
+    if (!owner || !repo) return {};
     const response = await this.http.get(`/repos/${owner}/${repo}`);
     return response.data;
   }

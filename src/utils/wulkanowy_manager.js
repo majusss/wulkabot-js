@@ -34,7 +34,8 @@ class WulkanowyManager {
       );
       const json = response.data;
       if (!json.success) {
-        throw new WulkanowyManagerException(json.error);
+        // console.log(new WulkanowyManagerException(json.error));
+        return null;
       }
       return new WulkanowyBuild(json.data);
     } catch (error) {
@@ -43,4 +44,8 @@ class WulkanowyManager {
   }
 }
 
-module.exports = WulkanowyManager;
+module.exports = {
+  WulkanowyManager,
+  WulkanowyBuild,
+  WulkanowyManagerException,
+};

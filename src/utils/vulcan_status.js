@@ -1,5 +1,5 @@
 const axios = require("axios");
-const { JSDOM } = require("jsdom");
+const cheerio = require("cheerio");
 
 class Domain {
   constructor(name, host, expectedTitle) {
@@ -167,8 +167,8 @@ class Status {
 async function checkStatus(url, expectedTitle) {
   try {
     const response = await axios.get(url, { timeout: 10000 });
-    const dom = new JSDOM(response.data);
-    const title = dom.window.document.title;
+    const $ = cheerio.load(response.data);
+    const title = $("title").text();
 
     if (title === expectedTitle) {
       return new Status(Result.OK, response.status, null);

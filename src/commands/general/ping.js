@@ -16,7 +16,7 @@ module.exports = {
         { name: "Latency", value: `${lat}ms` },
         { name: "Api", value: `${api}ms` },
       ])
-      .setColor("#00FFAA");
+      .setColor("#d32f2f");
 
     await interaction.reply({
       embeds: [embed],

@@ -5,6 +5,7 @@ const process = require("node:process");
 const github = new GitHub();
 
 require("dotenv").config();
+
 const client = new Client({
   intents: [
     GatewayIntentBits.Guilds,
