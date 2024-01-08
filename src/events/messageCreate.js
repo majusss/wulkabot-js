@@ -70,8 +70,8 @@ module.exports = {
             data.body.length > 0 && data.body?.length < 256
               ? data.body
               : data.state === "closed"
-                ? "🔒 Closed"
-                : "🔓 Open",
+              ? "🔒 Closed"
+              : "🔓 Open",
           )
           .setAuthor({
             name: data.user.login,
