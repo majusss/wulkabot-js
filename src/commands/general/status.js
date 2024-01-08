@@ -4,7 +4,6 @@ module.exports = {
   data: {
     name: "status",
     description: "Sprawdź status dziennika",
-    default_member_permissions: "0",
     dm_permissions: "0",
   },
   async execute(interaction) {

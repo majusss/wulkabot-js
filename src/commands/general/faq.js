@@ -4,7 +4,6 @@ module.exports = {
   data: {
     name: "faq",
     description: "Często zadawane pytania",
-    default_member_permissions: "0",
     dm_permissions: "0",
     options: [
       {

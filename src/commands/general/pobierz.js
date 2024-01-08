@@ -20,7 +20,6 @@ module.exports = {
   data: {
     name: "pobierz",
     description: "Najnowsza wersja aplikacji",
-    default_member_permissions: "0",
     dm_permissions: "0",
   },
   async execute(interaction) {
